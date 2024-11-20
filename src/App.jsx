@@ -21,7 +21,7 @@ function App() {
               {/* Define other routes if necessary */}
               <Route path="*" element={<BillingPermissions />} /> {/* Default to billing permissions */}
               <Route path="/payment-methods" element={<PaymentMethods />} />
-              <Route path="/Quotes" element={<QuotesPage />} />
+              
               <Route path="/billingPreview" element={<BillingPreview/>} />
 
 

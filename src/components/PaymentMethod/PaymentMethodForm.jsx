@@ -3,8 +3,12 @@ import React from 'react';
 
 const PaymentMethodForm = ({ closeModal }) => {
   return (
+    <>
+    
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        
       <div className="bg-white p-8 rounded-lg shadow-lg w-96">
+        
         <h2 className="text-xl font-semibold mb-4">Add a Payment Method</h2>
         <form>
           <div className="mb-4">
@@ -57,6 +61,7 @@ const PaymentMethodForm = ({ closeModal }) => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 

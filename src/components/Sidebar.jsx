@@ -11,7 +11,7 @@ const Sidebar = () => {
         <li><Link to="/billing-profiles" className="hover:bg-gray-200 p-2 block">Billing profiles</Link></li>
         <li><Link to="/payment-methods" className="hover:bg-gray-200 p-2 block">Payment method</Link></li>
         <li><Link to="/addresses" className="hover:bg-gray-200 p-2 block">Addresses</Link></li>
-        <li><Link to="/billing-permissions" className="hover:bg-gray-200 p-2 block bg-gray-200 rounded">Billing permissions</Link></li>
+        <li><Link to="/billing-permissions" className="hover:bg-gray-200 p-2 block rounded">Billing permissions</Link></li>
         <li><Link to="/invoices" className="hover:bg-gray-200 p-2 block">Invoices</Link></li>
       </ul>
     </div>

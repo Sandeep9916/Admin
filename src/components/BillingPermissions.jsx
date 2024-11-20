@@ -57,8 +57,8 @@ const BillingPermissions = () => {
                         <p className="text-gray-500 text-sm">{admin.email}</p>
                       </div>
                     </td>
-                    <td className="p-2">{admin.role}</td>
-                    <td className="p-2">{admin.accessLevel}</td>
+                    <td className="p-2">{admin.role||"uuu"}</td>
+                    <td className="p-2">{admin.accessLevel||"jjj"}</td>
                     <td className="p-2">
                       <button className="text-gray-500 hover:text-gray-700">...</button>
                     </td>

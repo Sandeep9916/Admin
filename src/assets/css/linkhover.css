@@ -1,0 +1,21 @@
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px; /* For spacing between the text and underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1d4ed8; /* Blue underline color */
+  transition: width 0.3s ease; /* Animation for the underline */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Expand underline on hover */
+}
