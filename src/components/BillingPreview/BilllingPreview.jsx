@@ -26,7 +26,7 @@ const BillingPreview = () => {
     <div className="p-6 font-sans bg-gray-50 min-h-screen">
       <div className="max-w-5xl mx-auto bg-white rounded-lg shadow-lg p-8 mt-10">
         {/* Header */}
-        <div className="mb-6">
+        <div className="mb-2">
           <h1 className="text-3xl font-extrabold text-gray-800">Billing Preview</h1>
           <p className="text-gray-600 mt-2">
             Centrally manage and view a summary of all your product and app subscriptions.

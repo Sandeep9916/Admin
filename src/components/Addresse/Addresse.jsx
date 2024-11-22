@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Quotes = () => {
+const Addresse = () => {
   return (
     <div>
-      Quotes
+     Address
     </div>
   )
 }
 
-export default Quotes
+export default Addresse
